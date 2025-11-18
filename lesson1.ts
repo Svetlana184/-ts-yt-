@@ -1,3 +1,5 @@
+//1
+
 //ANNOTATIONS
 // let myVar: type = value;
 let myName : string = "korushk";
