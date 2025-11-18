@@ -1,3 +1,5 @@
+//2
+
 //VOID
 function sayHello(name: string = "anonim"):void{
     console.log("hi " + name)
