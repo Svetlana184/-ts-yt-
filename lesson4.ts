@@ -20,10 +20,14 @@ type Person = {
 const firstPerson : Person = {name:"Alice", age:25};
 
 //OPTIONAL PROPERTIES
+//READONLY PROPERTY
 type User = {
-    name:string;
+    readonly name:string;
     location? : string
 };
 let user1 : User = {name:"Ann"};
 console.log(user1.location); //undefined
 let user2 : User = {name:"Alan", location : " USA"};
+
+//user1.name = "Alice"; - error
+
