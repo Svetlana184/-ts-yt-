@@ -1,3 +1,5 @@
+//4
+
 //OBJECTS
 const person : {firstName: string; age:number} = {
     firstName : "John",
